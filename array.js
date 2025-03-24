@@ -26,7 +26,6 @@ console.log(luckyNumbers[7])
 console.log(empty.length)
 console.log(luckyNumbers.length)
 
-console.clear();
 
 const numbers = [10, 2, 8, 4, 6];
 const totalSum1 = numbers[0] + numbers[1] + numbers[4] + numbers[3] + numbers [2];

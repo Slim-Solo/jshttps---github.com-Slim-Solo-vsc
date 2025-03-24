@@ -131,22 +131,20 @@ function mokinysVidurkis (mokinys)
 {
     console.log(' mokinys Vardas ' + mokinys[0])
     let vidurkis = (mokinys[1]+mokinys[2]+mokinys[3]+mokinys[4]+mokinys[5])/5
-    if(vidurkis>=3.5)
-}
-else    {
+if(vidurkis>=3.5) {
+    console.log(mokinys[0] + " Islaike. Jo vidurkis:" + vidurkis);
+} else {
         console.log(mokinys[0] + " Islaike. Jo vidurkis:" + vidurkis);
     }
-    else
-    {
-        let vidurkisNaujsa = ((vidurkis*5)+10)/6
+        let vidurkisNaujas = ((vidurkis*5)+10)/6
         console.log(mokinys[0] + " neislaike. Jo dabartinis vidurkis:" + vidurkis);
-        console.log (vidurkisNaujas);
-    }
-        {
-            if(vidurkisNaujas>=3.5)
-        
+        console.log(mokinys[0] + " neislaike. Jo dabartinis vidurkis:" + vidurkis);
+        console.log(vidurkisNaujas);
+        if(vidurkisNaujas>=3.5) {
             console.log(mokinys[0] + " Islaikitu kursa jai gautu viena desimtuka");
+    }
 }
+
 
 mokinysVidurkis(mokinys1)
 mokinysVidurkis(mokinys2)
