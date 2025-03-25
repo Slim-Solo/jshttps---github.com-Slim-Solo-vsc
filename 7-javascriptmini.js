@@ -129,7 +129,7 @@ const mokinys6 = ["Ona", 4, 4, 4, 4, 4];
 
 function mokinysVidurkis (mokinys)
 {
-    console.log(' mokinys Vardas ' + mokinys[0])
+    console.log('Mokinio Vardas ' + mokinys[0])
     let vidurkis = (mokinys[1]+mokinys[2]+mokinys[3]+mokinys[4]+mokinys[5])/5
 if(vidurkis>=3.5) {
     console.log(mokinys[0] + " Islaike. Jo vidurkis:" + vidurkis);

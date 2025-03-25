@@ -25,6 +25,7 @@ const num6 = ['3, 12, 20, 21, 10']
 console.log(num6);
 
 
+
 const tex4 = ['muse', 'kojines', 'sraige', 'koja', 'stiga']
 console.log(tex4)
 const tex5 = ['dazasvydis', 'svytuokle', 'rugstyne', 'faksas', 'sachmatai']
@@ -112,7 +113,6 @@ else {
     console.log('Bandykite kita karta');
 }
 
-
 const wordLength = 'Labas rytas';
 const wordLength2 = 'Labas vakaras';
 console.log(wordLength.length);
@@ -150,6 +150,7 @@ if (wordLength.length !== wordLength2.length) {
 }
 
 
+
 sentence1 = tex4[0].length + tex4[1].length + tex4[2].length + tex4[3].length + tex4[4].length;
 console.log(sentence1);
 
@@ -158,6 +159,8 @@ console.log(sentence2);
 
 sentence3 = tex6[0].length + tex6[1].length + tex6[2].length + tex6[3].length + tex6[4].length;
 console.log(sentence3);
+
+
 
 if (sentence1 > sentence2) {
     console.log('Banditi kita karta')
@@ -189,3 +192,5 @@ console.log(daugyba(2, 5))
 result = 10
 console.log(daugyba(result, 5))
 console.log(daugyba(2, result))
+
+
