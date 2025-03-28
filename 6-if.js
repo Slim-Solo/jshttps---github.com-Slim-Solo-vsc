@@ -1,8 +1,7 @@
-
 /*
-IF -palyginimo savyga
+IF - palyginimo savyga
 
-Paliginimo operatoriai:
+Palyginimo operatoriai:
 - visi: >, <, >=, <=, ==, ===, !=, !==
 - naudotini: >, <, >=, <=, ===, !==
 - nenaudotini: ==, !=
@@ -10,18 +9,18 @@ Paliginimo operatoriai:
 Kodo sablonai:
 if () {}
 if () {} else {}
-if () {} else if {}
-if () {} else if {} else {}
-if () {} ... else if {} ... else {}
+if () {} else if ()
+if () {} else if () else {}
+if () {} ... else if () ...
+if () {} ... else if () ... else {}
 */
-
 
 console.log('START');
 
-if (4 <= 2) {
-    console.log('taip');
+if (4 > 2) {
+    console.log('--- taip');
 } else {
-    console.log('ne');
+    console.log('--- ne');
 }
 
 console.log('END');
@@ -30,34 +29,48 @@ console.clear();
 
 const temp = -2;
 
-if (temp != 18) {
-    console.log('silta 🌞');
+if (temp >= 18) {
+    console.log('Silta 🌞');
 } else {
-    console.log('salta 🥶');
+    console.log('Salta 🥶');
 }
 
 // jei zemiau 0 -> salta
-// jai zemiau 10 -> meh
-// jai zemiau 22 -> silta
-// jai duaugiau -> karsta
+// jei zemiau 10 -> meh
+// jei zemiau 22 -> silta
+// jei daugiau -> karsta
 
-
-const temp2 = 0;
+const temp2 = 22;
 
 if (temp2 < 0) {
-    console.log('salta 🥶');
+    console.log('Šalta 🥶');
 } else if (temp2 < 10) {
-    console.log('meh 😐');
-}
-else if (temp2 < 22) {
-    console.log('silta 🌞');
+    console.log('Meh 👀');
+} else if (temp2 < 22) {
+    console.log('Šilta 🌞');
 } else {
-    console.log('karsta 🔥');
+    console.log('Karšta 😎');
+}
+
+const temp3 = -55;
+
+if (temp3 < 0) {
+    console.log('Šalta 🥶');
+}
+
+if (temp3 < 10) {
+    console.log('Meh 👀');
+}
+
+if (temp3 < 22) {
+    console.log('Šilta 🌞');
+} else {
+    console.log('Karšta 😎');
 }
 
 console.clear();
 
-const clientValue = 4
+const clientValue = '4';
 
 if (4 === clientValue) {
     console.log('tenkina');

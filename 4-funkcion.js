@@ -2,8 +2,10 @@ function empty() {
     // logika
 }
 
-const a = empty()
+const a = empty();
+const b = empty();
 console.log(a);
+console.log(b);
 
 console.log(empty());
 
